@@ -10,7 +10,7 @@ body{
   display:flex;
   flex-direction:column;
 }
-header.navbar-container{
+header .navbar-container{
   width:100%;
   max-width:1200px;
   pading-block:1rem
@@ -20,18 +20,18 @@ header.navbar-container{
   align-items:center;
   z-index:9999;
 }
-header.navbar-container.logo img{
+header .navbar-container .logo img{
   width:150px;
 }
-header.navbar-container.nav-list ul{
+header .navbar-container .nav-list ul{
   padding-left:0;
   display:flex;
   justify-content:center;
   gap:2rem 1rem;
 }
-header.navbar-container.nav-list li{
+header .navbar-container .nav-list li{
   list-style-type:none;
-header.navbar.container.nav-list li a{
+header .navbar-container .nav-list li a{
   padding:0.5rem 1.5rem;
   border-radius:999px;
   text-decoration:none;
@@ -40,7 +40,7 @@ header.navbar.container.nav-list li a{
   color:black;
   transition:all 0.2s ease-in-out;
 }
-header.navbar.container.nav-list li:hover a{
+header .navbar-container .nav-list li:hover a{
   background-color:#42c577;
   color:white;
 }
