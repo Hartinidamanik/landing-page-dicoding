@@ -13,7 +13,7 @@ body{
 header .navbar-container{
   width:100%;
   max-width:1200px;
-  pading-block:1rem
+  pading-block:1rem;
   margin-inline:auto;
   display:flex;
   justify-content:space-around;
@@ -44,6 +44,15 @@ header .navbar-container .nav-list li a{
 header .navbar-container .nav-list li:hover a{
   background-color:#42c577;
   color:white;
+}
+main{
+  flex:1;
+  width:100%;
+  max-width:1200px;
+  margin-inline:auto;
+  padding:2rem 4rem;
+  display:flex;
+  align-items:center;
 }
   
   
